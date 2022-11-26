@@ -10,7 +10,7 @@ public class Iphone extends Phone implements Ringable {
 
     @Override
     public String ring() {
-        return "CockDoooDoledo, CockDoooDoledo!";
+        return getRingTone();
     }
 
     @Override
