@@ -20,7 +20,7 @@ public class Iphone extends Phone implements Ringable {
 
     @Override
     public void displayInfo() {
-        System.out.format("\n Iphone's id: %s, Battery Percentage left: %s," + "Carrier: %s" +
+        System.out.format("\n Iphone's id: %s, Battery Percentage left: %s, " + "Carrier: %s," +
                 "RingTOne: %s\n", getVersionNumber(), getBatteryPercentage(), getPhoneCarrier(), getRingTone());
     }
 }
