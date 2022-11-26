@@ -1,6 +1,10 @@
 package Base;
 
 public interface Ringable {
-    public String ring();
-    public String unlock();
+    public default String ring() {
+        return "ding...ding...ring...";
+    };
+    public default String unlock() {
+        return "phone unlocked ";
+    };
 }

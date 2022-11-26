@@ -7,10 +7,12 @@ public class Galaxy extends Phone implements Ringable {
         super(versionNumber, batteryPercentage, ringTone, phoneCarrier);
     }
 
+    @Override
     public String ring() {
         return this.getRingTone();
     }
 
+    @Override
     public String unlock() {
         return "Phone unlocked through pin number.";
     }
