@@ -25,7 +25,7 @@ public class GalaxyTest {
     public void GalaxySuccessTest() {
 
         // arrange
-        Galaxy galaxy = new Galaxy("S9", 99, "Doo Be Doo Be Doo!", "Verizon");
+        Galaxy galaxy = new Galaxy("S9", 99, "Pee Po Pee Po Whooh Woo!", "Verizon");
 
         // act
         galaxy.displayInfo();
@@ -34,9 +34,9 @@ public class GalaxyTest {
         assertEquals("This Galaxy's phone:\n Verizon carrier,\n" +
                 " version Number S9,\n" +
                 " has 99 battery percentage left,\n" +
-                " and it goes Doo Be Doo Be Doo! when it rings.", outContext.toString());
+                " and it goes Pee Po Pee Po Whooh Woo! when it rings.", outContext.toString());
 
-        assertEquals("Doo Be Doo Be Doo!", galaxy.ring());
+        assertEquals("Pee Po Pee Po Whooh Woo!", galaxy.ring());
         assertEquals("Phone unlocked through pin number.", galaxy.unlock());
     }
 }
