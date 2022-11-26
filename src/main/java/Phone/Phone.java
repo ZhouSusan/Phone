@@ -30,4 +30,5 @@ public abstract class Phone {
         return phoneCarrier;
     }
 
+    public abstract void displayInfo();
 }
