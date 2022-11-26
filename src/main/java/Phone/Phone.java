@@ -13,4 +13,21 @@ public abstract class Phone {
         this.ringTone = ringTone;
         this.phoneCarrier = phoneCarrier;
     }
+
+    public String getVersionNumber() {
+        return versionNumber;
+    }
+
+    public int getBatteryPercentage() {
+        return batteryPercentage;
+    }
+
+    public String getRingTone() {
+        return ringTone;
+    }
+
+    public String getPhoneCarrier() {
+        return phoneCarrier;
+    }
+
 }
